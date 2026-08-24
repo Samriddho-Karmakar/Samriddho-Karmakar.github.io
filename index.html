@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samriddho Karmakar — Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Templates/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+
+  <nav>
+    <div class="nav-inner">
+      <div class="logo">samriddho<span>.dev</span></div>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+
+  <div class="wrap">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="ide-window">
+        <div class="ide-titlebar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="ide-filename">about-me.js</span>
+        </div>
+        <div class="ide-body">
+          <div class="eyebrow">available for freelance work</div>
+          <h1>Samriddho Karmakar builds <span class="accent">apps &amp; web tools</span> that ship.</h1>
+          <p class="hero-sub">App developer and web developer based in Kolkata — I design and build products from idea
+            to deployment, including my own web-based code editor.</p>
+          <p class="hero-code">
+            <span class="kw">const</span> dev = { <span class="com">// samriddho.dev</span><br>
+            &nbsp;&nbsp;role: <span class="str">"App & Web Developer"</span>,<br>
+            &nbsp;&nbsp;base: <span class="str">"Kolkata, India"</span>,<br>
+            &nbsp;&nbsp;status: <span class="str">"open to freelance"</span><br>
+            };
+          </p>
+          <br>
+          <div class="btn-row">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-label">01 · who's writing this code</div>
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="ide-window about-text">
+          <div class="ide-titlebar"><span class="dot red"></span><span class="dot yellow"></span><span
+              class="dot green"></span><span class="ide-filename">bio.md</span></div>
+          <div class="ide-body">
+            <p>I'm a developer from Kolkata who builds full products, not just prototypes. My work spans building my own
+              multi operating system applications and designing and shipping small business websites.</p>
+            <p>I care about interfaces that feel considered — fast, clean, and built for the person using them, not just
+              the person demoing them.</p>
+            <div class="stat-row">
+              <div class="stat">
+                <div class="stat-num">3+</div>
+                <div class="stat-label">Products shipped</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">2</div>
+                <div class="stat-label">Domains — app & web</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ide-window">
+          <div class="ide-titlebar"><span class="dot red"></span><span class="dot yellow"></span><span
+              class="dot green"></span><span class="ide-filename">focus.json</span></div>
+          <div class="ide-body">
+            <p class="hero-code">
+              <span class="kw">{</span><br>
+              &nbsp;&nbsp;<span class="str">"builds"</span>: [<span class="str">"web apps"</span>, <span
+                class="str">"dev tools"</span>],<br>
+              &nbsp;&nbsp;<span class="str">"also"</span>: <span class="str">"mobile apps"</span>,<br>
+              &nbsp;&nbsp;<span class="str">"open_to"</span>: <span class="str">"freelance & collabs"</span><br>
+              <span class="kw">}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-label">02 · from the repo</div>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-intro">A selection of things I've designed and built end to end. Click into any project for
+        screenshots, the stack used, and links.</p>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="section-label">03 · what I can build for you</div>
+      <h2 class="section-title">Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="service-icon">&lt;/&gt;</div>
+          <h3>Web Development</h3>
+          <p>Responsive websites and web apps, from landing pages to full products.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">▣</div>
+          <h3>App Development</h3>
+          <p>Functional, user-focused application builds tailored to what you need.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✎</div>
+          <h3>UI Design</h3>
+          <p>Interfaces that are clean, modern, and built around how people actually use them.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process">
+      <div class="section-label">04 · how a project runs</div>
+      <h2 class="section-title">Process</h2>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="process-num">STEP 01</div>
+          <h4>Brief</h4>
+          <p>We talk through what you need, the goal, and any references you have.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">STEP 02</div>
+          <h4>Design</h4>
+          <p>I put together a look and structure before writing a line of code.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">STEP 03</div>
+          <h4>Build</h4>
+          <p>Development happens in stages, with check-ins so nothing is a surprise.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">STEP 04</div>
+          <h4>Ship</h4>
+          <p>Final review, fixes, and deployment — plus handover of anything you need.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-label">05 · stack</div>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <div class="skill-row">
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">HTML/CSS</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">Web App Development</span>
+        <span class="skill-pill">App Development</span>
+        <span class="skill-pill">UI/UX</span>
+        <span class="skill-pill">Git &amp; GitHub</span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="ide-window contact-window">
+        <div class="ide-titlebar"><span class="dot red"></span><span class="dot yellow"></span><span
+            class="dot green"></span><span class="ide-filename">contact.js</span></div>
+        <div class="ide-body">
+          <h2>Let's build something.</h2>
+          <p>Open for freelance work and collaborations — send a message or reach out directly to hire or team up.</p>
+
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/mljryeko" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry, collab, etc.">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
+
+          <p class="note">Prefer email? Message me directly below.</p>
+
+          <div class="contact-links">
+            <a href="mailto:karmakarsamriddho@gmail.com" class="btn btn-ghost" id="emailLink">Email Directly</a>
+            <a href="https://github.com/Samriddho-Karmakar" target="_blank" rel="noopener"
+              class="btn btn-ghost">GitHub</a>
+            <a href="https://www.linkedin.com/in/samriddho-karmakar-b3b45038b/" target="_blank" rel="noopener"
+              class="btn btn-ghost">LinkedIn</a>
+          </div>
+          <p class="note">Or reach me directly.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      built by Samriddho Karmakar · Kolkata
+    </footer>
+
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="ide-window modal-box" id="modalBox" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="ide-titlebar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="ide-filename" id="modalFilename">project.tsx</span>
+        <button class="modal-close" id="modalCloseBtn" aria-label="Close">✕ close</button>
+      </div>
+      <div class="ide-body modal-body-inner" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
